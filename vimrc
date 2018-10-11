@@ -5,7 +5,7 @@
 
 set number         " Show line numbers
 set encoding=utf8  " Set utf8 as the standard encoding
-syntax on	       " Enable syntax highlighting
+syntax on          " Enable syntax highlighting
 
 " We also want the option to see all whitespace chars (mapped to \-l)
 set list
