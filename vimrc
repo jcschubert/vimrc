@@ -6,11 +6,13 @@
 set number         " Show line numbers
 set encoding=utf8  " Set utf8 as the standard encoding
 syntax on          " Enable syntax highlighting
+set history=1000   " Keep a history of the last 1000 commands (default: 20)
 
 " We also want the option to see all whitespace chars (mapped to \-l)
 set list
 set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<,space:·
 nmap <leader>l :set invlist<cr>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Indentation 
